@@ -1,0 +1,222 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local Execute = Instance.new("TextButton")
+local Clear = Instance.new("TextButton")
+local Respawn = Instance.new("TextButton")
+local R6 = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Frame1 = Instance.new("Frame")
+local TextLabel1 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.300
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.13459456, 0, 0.244094491, 0)
+Frame.Size = UDim2.new(0, 601, 0, 292)
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.ClipsDescendants = true
+TextBox.Position = UDim2.new(0.017082734, 0, 0.146810561, 0)
+TextBox.Size = UDim2.new(0, 589, 0, 199)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.MultiLine = true
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+Execute.Name = "Execute"
+Execute.Parent = Frame
+Execute.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Execute.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Execute.Position = UDim2.new(0.0154188918, 0, 0.846686065, 0)
+Execute.Size = UDim2.new(0, 189, 0, 33)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextScaled = true
+Execute.TextSize = 14.000
+Execute.TextWrapped = true
+
+Clear.Name = "Clear"
+Clear.Parent = Frame
+Clear.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Clear.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Clear.Position = UDim2.new(0.341123164, 0, 0.850110412, 0)
+Clear.Size = UDim2.new(0, 188, 0, 33)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextScaled = true
+Clear.TextSize = 14.000
+Clear.TextWrapped = true
+
+Respawn.Name = "Respawn"
+Respawn.Parent = Frame
+Respawn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Respawn.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Respawn.Position = UDim2.new(0.665520251, 0, 0.85011071, 0)
+Respawn.Size = UDim2.new(0, 94, 0, 34)
+Respawn.Font = Enum.Font.SourceSans
+Respawn.Text = "Reset Character"
+Respawn.TextColor3 = Color3.fromRGB(255, 255, 255)
+Respawn.TextScaled = true
+Respawn.TextSize = 14.000
+Respawn.TextWrapped = true
+
+R6.Name = "R6"
+R6.Parent = Frame
+R6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+R6.BorderColor3 = Color3.fromRGB(255, 0, 0)
+R6.Position = UDim2.new(0.836262763, 0, 0.846686065, 0)
+R6.Size = UDim2.new(0, 89, 0, 34)
+R6.Font = Enum.Font.SourceSans
+R6.Text = "Body Type Switch"
+R6.TextColor3 = Color3.fromRGB(255, 255, 255)
+R6.TextScaled = true
+R6.TextSize = 14.000
+R6.TextWrapped = true
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.821287751, 0, 0, 0)
+Frame_2.Size = UDim2.new(0, 100, 0, 100)
+Frame_2.ZIndex = 0
+
+ImageLabel.Parent = Frame_2
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(-1.44712102, 0, -0.546062946, 0)
+ImageLabel.Rotation = 14.000
+ImageLabel.Size = UDim2.new(0, 285, 0, 226)
+ImageLabel.Image = "rbxassetid://8408806737"
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.445948452, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 234, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "c00lkidd 2026"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 41.000
+
+Frame1.Name = "Frame1"
+Frame1.Parent = Frame
+Frame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame1.BackgroundTransparency = 1.000
+Frame1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderSizePixel = 0
+Frame1.Position = UDim2.new(0.999999583, 0, 0.0719180182, 0)
+Frame1.Size = UDim2.new(0.392678976, 0, 0.171232671, 0)
+
+TextLabel1.Name = "TextLabel1"
+TextLabel1.Parent = Frame1
+TextLabel1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel1.BackgroundTransparency = 1.000
+TextLabel1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1.BorderSizePixel = 0
+TextLabel1.Position = UDim2.new(0.0338990726, 0, -0.280684859, 0)
+TextLabel1.Size = UDim2.new(1.474576, 0, 1.04000068, 0)
+TextLabel1.Font = Enum.Font.SourceSans
+TextLabel1.Text = "client sided dude"
+TextLabel1.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel1.TextSize = 19.000
+TextLabel1.TextStrokeTransparency = 0.000
+TextLabel1.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(44, 95, 52)
+TextButton.BorderColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.Position = UDim2.new(0.0144165847, 0, 0.0238555484, 0)
+TextButton.Size = UDim2.new(0, 134, 0, 28)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Auto Username Fill"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextStrokeTransparency = 0.210
+TextButton.TextWrapped = true
+
+-- Scripts:
+
+local function OHMARZ_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.TextBox
+	button.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+end
+coroutine.wrap(OHMARZ_fake_script)()
+local function XFYKJAU_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.Frame1.TextLabel1
+	button.MouseButton1Click:Connect(function()
+		textbox.Text = "code executed succesfully!"
+		wait(10)
+		textbox.Text = ""
+	end)
+end
+coroutine.wrap(XFYKJAU_fake_script)()
+local function MNUN_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.TextBox
+	button.MouseButton1Click:Connect(function()
+		textbox.Text = ""
+	end)
+end
+coroutine.wrap(MNUN_fake_script)()
+local function SINTYNG_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.Frame1.TextLabel1
+	button.MouseButton1Click:Connect(function()
+		textbox.Text = "cleared succesfully!"
+		wait(10)
+		textbox.Text = ""
+	end)
+end
+coroutine.wrap(SINTYNG_fake_script)()
+local function SQTIIPL_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+end
+coroutine.wrap(SQTIIPL_fake_script)()
