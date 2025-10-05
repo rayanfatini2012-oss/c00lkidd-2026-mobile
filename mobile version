@@ -126,7 +126,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.445948452, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 234, 0, 50)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "c00lkidd 2026"
+TextLabel.Text = "c00lkidd fUck roBLOX"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 41.000
 
